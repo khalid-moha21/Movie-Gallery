@@ -3,7 +3,7 @@ import { useKey } from "../hooks/useKey";
 import StarRating from "./StarRating";
 import Loader from "./Loader";
 
-const KEY = "20f658b";
+const KEY = process.env.REACT_APP_OMDB;
 
 export default function MovieDetails({
   selectedId,
